@@ -1,2 +1,2 @@
 # swiggy-clone
-front end webdeveloper 
+#link    https://swiggy235.netlify.app/     you can preview the website 
