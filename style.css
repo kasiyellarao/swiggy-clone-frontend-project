@@ -1,0 +1,484 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navibar {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(245, 80, 29);
+    
+
+
+
+}
+
+.logobar {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(245, 80, 29);
+    cursor: pointer;
+
+}
+
+.sidebar {
+    margin-right: 60px;
+
+}
+
+.logo {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 130px;
+    align-items: 20px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: -50px;
+    cursor: pointer;
+
+
+}
+
+.home {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(245, 80, 29);
+    position: relative;
+}
+
+.rightlogo {
+
+    padding-left: 83.55%;
+    position: absolute;
+    margin-top: -500px;
+
+}
+
+.app {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-variant: small-caps;
+    background-color: rgb(245, 74, 22);
+    margin-top: -20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.sign {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-variant: small-caps;
+    background-color: rgb(0, 0, 0);
+    margin-top: -20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text {
+    height: 250px;
+    width: 80%;
+    /* background-color: beige; */
+    margin-left: 160px;
+    margin-top: -450px;
+    position: absolute;
+}
+
+.tagline {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.types {
+    height: 360px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin-left: 160px;
+    margin-top: -210px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    cursor: pointer;
+
+
+}
+
+.search {
+    height: 60px;
+    width: 450px;
+    /* border-radius:30px; */
+    /* margin-left: 200px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    padding-left: 10px;
+
+
+}
+
+.location {
+    height: 60px;
+    width: 300px;
+    /* border-radius:30px; */
+    margin-left: 200px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    padding-left: 10px;
+}
+
+.items {
+    height: 550px;
+    width: 95%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    padding-left: 100px;
+
+}
+
+.foodimg {
+
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 10px;
+    cursor: grab;
+    scrollbar-width: none;
+}
+
+
+.foodimg img {
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foodimg img:hover {
+    transform: scale(1.1);
+}
+
+.instamart {
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+.groceries {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 10px;
+    cursor: grab;
+    scrollbar-width: none;
+}
+.grocerie {
+    display: flex;
+
+}
+
+.groceries img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.groceries img:hover {
+    transform: scale(1.1);
+}
+
+.intext {
+    height: 150px;
+    width: 100%;
+    padding-top: 90px;
+    padding-left: 40px;
+
+}
+
+.hotels {
+    height: 50px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.boxscroll {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    cursor: grab;
+}
+
+
+
+.dinebox {
+    height: 350px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dinebox img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+pre{
+    font-weight: bold;
+    font-size: medium;
+    color: rgba(100, 100, 100, 0.929);
+}
+
+.tablebooking {
+    height: 25px;
+    width: 40%;
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    font-weight: lighter;
+    margin-left: 15px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.bookingbutton {
+    height: 30px;
+    width: 90%;
+    background-color: rgb(48, 155, 118);
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 3px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.bookingoffer {
+    height: 30px;
+    width: 90%;
+    background-color: rgb(168, 241, 222);
+    font-weight: bold;
+    color: rgb(30, 138, 1);
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 3px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.cities {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.cities h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.city-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.city-box {
+    padding: 12px 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.city-box:hover {
+    border-color: black;
+}
+
+
+.show-more {
+
+    background: none;
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+
+}
+
+.show-more:hover {
+    border-color: black;
+}
+
+.fotter {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fotterlogo {
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(32, 34, 34); */
+}
+
+.company {
+    height: 100%;
+    width: 15%;
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.contact {
+    height: 100%;
+    width: 15%;
+    /* background-color: blue; */
+    /* text-align: center; */
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.available {
+    height: 100%;
+    width: 15%;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.life {
+    height: 100%;
+    width: 30%;
+    /* background-color: brown; */
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.foot img {
+    height: 100px;
+    width: 150px;
+    margin-bottom: -20px;
+
+
+}
+
+.foot {
+    height: 120px;
+    width: 160px;
+    margin-left: 190px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+
+}
+
+.life i {
+    letter-spacing: 5px;
+}
+.last{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+   
+}
+.last img{
+    height: 50px;
+    width: 170px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.last div{
+    margin-left: 900px;
+}
+.last h2{
+    margin-left: 300px;
+    
+}
+.last img:hover{
+    transform: scale(1.1);
+}
+
